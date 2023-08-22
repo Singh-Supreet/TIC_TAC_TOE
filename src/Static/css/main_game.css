@@ -1,0 +1,67 @@
+*{
+    color:white;
+}
+body{
+    background: #5066b9;
+     
+}
+
+.board button {
+    color:#ef0000;
+    font-family: cursive;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+#message {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 600px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    border: 3px solid rgba(255,255, 255,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0),
+    -3px -2px 3px rgba(255, 255, 255,0.2),
+    2px 2px 2px rgba(0,0,0,0.08) inset;
+} 
+ 
+
+.contenedor {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 620px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    width: 620px;
+    height: 450px;
+    border: none;
+    border-radius: 14px;
+    background: #050f31;
+   
+}
+
+.hov:hover{
+    border-radius: 16px;
+    background: #a6b0aa;
+    box-shadow:  11px 11px 25px #b6b7bd,
+                 -11px -11px 25px #ffffff;
+}
+
+.hov{
+    transition: box-shadow 0.1s linear 0.1s;
+}
+
+ 
